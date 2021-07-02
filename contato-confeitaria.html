@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Confeitaria-home</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="confeitaria.css">
+	</head>
+	<body>
+		<header>			
+			<img src="logo_confeitaria.png" alt="logo da confeitaria sem sal">
+			<nav>
+				<ul>
+					<li><a href="produtos-confeitaria.html">Produtos</a></li>
+					<li><a href="confeitaria.html">Home</a></li>
+				</ul>
+			</nav>
+		</header>
+			<main class="contato-conteudo">
+				<form>
+					<p>Tem alguma duvida ou quer fazer alguma encomenda fale conosco =)</p>
+					<label for="nomesobrenome">Nome e sobrenome</label>
+					<input type="text" id="nomesobrenome" class="input-conteudo" required>
+
+					<label for="email">Email</label>
+					<input type="email" id="email" class="input-conteudo" required placeholder="email@dominio.com">
+
+					<label for="telefone">telefone</label>
+					<input type="tel" id="telefone" class="input-conteudo" required placeholder="(xx) xxxxx-xxxx">
+
+					<label for="mensagem">Diga como podemos te ajudar =)</label>
+					<textarea cols="70" rows="10" type="text" id="mensagem" class="input-conteudo"></textarea>
+
+					<fieldset >
+						
+						<legend>Qual o melhor meio para contato?</legend>
+						<label><input type="radio" name="contato" value="email" id="radio-email" class="contato">Email</label>
+
+						<label><input type="radio" name="contato" value="telefone" id="radio-telefone" class="contato">Telefone</label>
+
+						<label><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" class="contato">WhatsApp</label>
+
+						<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+						<input class="enviar" type="submit" value="Enviar formulário">
+
+					</fieldset>
+
+				</form>
+			</main>
+
+
+			<footer>
+			<img class="imagem-footer" src="logo_confeitaria2.png" alt="imagem logo confeitaria sem sal rodapé">
+			<p class="copyright">&copy; Copyright Confeitaria Sem Sal 2021</p>
+		</footer>
+	</body>			
+</html>

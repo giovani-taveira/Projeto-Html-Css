@@ -1,0 +1,238 @@
+body{
+	background-color: #f9d5a3;
+	font-family: 'Yellowtail', cursive;
+	;
+}
+
+header {
+	background-color: #684c38;
+	width: 100%;	
+}
+
+header img{
+	display: inline-block;
+	width: 160px;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+nav{
+	position: absolute;
+	top: 70px;
+	right: 70px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 50px;
+}
+
+nav a{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 35px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #a88a1a;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+	margin-left: 138px;
+}
+
+.conteudo{
+	line-height: 1.5em;
+	padding: 20px;
+	display: inline-block; 
+	vertical-align: top;
+	margin-top: 96px;
+	padding: 40px;
+	width: 40%;
+	margin-left:150px;
+	font-size: 30px;
+}
+
+.imagem-conteudo{
+	display: inline-block;
+	position: absolute;
+	width: 250px;
+	right: 150px;
+	top: 300px;
+	box-shadow: 10px 10px 10px #000000;
+	float: left;
+	margin: 0 60px 20px 0;
+	top: 350px;
+}
+
+.imagem-conteudo:hover{
+	opacity: 0.5;
+	transition: 0.4s;
+}
+
+.mapa{
+	padding: 3em 0;
+	text-align: center;
+}
+
+.mapa-conteudo{
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 5px;	
+}
+
+.mapa h2{
+	padding: 0 0 2em;
+	font-size: 35px;
+}
+
+footer{
+	background: #684c38;
+	padding: 10px; 
+}
+
+.imagem-footer{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px 0;
+	width: 150px;	
+}
+
+.copyright{
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*CSS da pagina de contato*/
+
+form p{
+	padding: 20px 0;
+}
+
+.contato-conteudo{
+	padding: 80px;
+	font-size:28px;
+}
+
+form{
+	margin: 40px 0;
+}
+
+label, fieldset{
+	display: block;
+	margin: 0 0 10px;
+}
+
+.input-conteudo{
+	width: 40%;
+	padding: 10px 25px;
+	margin: 0 0 20px;
+	border-radius: 5px;
+}
+
+.checkbox{
+	padding: 20px 0;
+}
+
+.enviar{
+	width: 20%;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 15px;
+
+}
+
+.enviar:hover{
+	background-color: #a88a1a;
+	padding: 5px 15px;
+	transform: scale(1.15);
+}
+
+/*CSS da página dos produtos*/
+
+.produtos-linha1{
+	margin: 0 auto;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.produtos-linha1 li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	height: 450px;
+	line-height: 30px;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;	
+	border: solid 2px #000000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.titulo-produtos{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produtos-linha1 img{
+	border-radius: 5px;
+}
+
+.conteudo-produtos{
+	font-size: 24px;
+}
+
+.produtos-linha1 li:hover{
+	border-color: #a88a1a;
+}
+
+.produtos-linha1 li:active{
+	transform: scale(1.05);
+}
+
+.produtos-linha2{
+	margin: 0 auto;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.produtos-linha2 li{
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	height: 450px;
+	line-height: 30px;
+	margin: 0 1.5%;
+	padding: 30px 15px;
+	box-sizing: border-box;	
+	border: solid 2px #000000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.produtos-linha2 li:hover{
+	border-color: #a88a1a;
+}
+
+.produtos-linha2 li:active{
+	transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px){
+
+}
